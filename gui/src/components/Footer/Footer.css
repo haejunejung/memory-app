@@ -1,0 +1,13 @@
+#footer-background {
+  position: relative;
+
+  background-image: url("../../../public/pictures/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  width: 100vw;
+  height: 100vh;
+
+  border: 1px solid black;
+}
