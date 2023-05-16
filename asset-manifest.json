@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/memory-app/static/css/main.ff7ae046.css",
-    "main.js": "/memory-app/static/js/main.bfe13d63.js",
+    "main.css": "/memory-app/static/css/main.a81b029d.css",
+    "main.js": "/memory-app/static/js/main.e38e2ff8.js",
     "static/media/DarumadropOne-Regular.ttf": "/memory-app/static/media/DarumadropOne-Regular.ecbd91fa3352ff011bf1.ttf",
     "static/media/background.jpeg": "/memory-app/static/media/background.219bc8e038256d5a32c1.jpeg",
     "index.html": "/memory-app/index.html",
-    "main.ff7ae046.css.map": "/memory-app/static/css/main.ff7ae046.css.map",
-    "main.bfe13d63.js.map": "/memory-app/static/js/main.bfe13d63.js.map"
+    "main.a81b029d.css.map": "/memory-app/static/css/main.a81b029d.css.map",
+    "main.e38e2ff8.js.map": "/memory-app/static/js/main.e38e2ff8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff7ae046.css",
-    "static/js/main.bfe13d63.js"
+    "static/css/main.a81b029d.css",
+    "static/js/main.e38e2ff8.js"
   ]
 }
