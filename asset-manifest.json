@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/memory-app/static/js/main.a038be63.js",
+    "index.html": "/memory-app/index.html",
+    "main.a038be63.js.map": "/memory-app/static/js/main.a038be63.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a038be63.js"
+  ]
+}
