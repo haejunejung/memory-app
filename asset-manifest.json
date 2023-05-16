@@ -1,10 +1,14 @@
 {
   "files": {
+    "main.css": "/memory-app/static/css/main.8a32c1d6.css",
     "main.js": "/memory-app/static/js/main.a038be63.js",
+    "static/media/DarumadropOne-Regular.ttf": "/memory-app/static/media/DarumadropOne-Regular.ecbd91fa3352ff011bf1.ttf",
     "index.html": "/memory-app/index.html",
+    "main.8a32c1d6.css.map": "/memory-app/static/css/main.8a32c1d6.css.map",
     "main.a038be63.js.map": "/memory-app/static/js/main.a038be63.js.map"
   },
   "entrypoints": [
+    "static/css/main.8a32c1d6.css",
     "static/js/main.a038be63.js"
   ]
 }
