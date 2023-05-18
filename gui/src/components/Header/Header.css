@@ -10,8 +10,6 @@
 
   width: 100vw;
   height: 100vh;
-
-  border: 1px solid black;
 }
 
 @keyframes transY {
@@ -39,6 +37,8 @@
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
+
+  color: black;
 }
 
 #header-text:first-of-type {

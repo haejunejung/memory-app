@@ -30,13 +30,15 @@
   --larger-length-m: 3rem;
   --larger-length-l: 4rem;
 
-  --card-length: 15rem;
+  --card-length: 10rem;
 
   --hedaer-length: 10rem;
 }
 
 * {
   font-family: "Darumadrop One";
+  font-size: var(--medium-length-m) !important;
+  color: azure;
 }
 
 body,
@@ -48,4 +50,8 @@ html {
 body {
   width: 100vw;
   height: 100vh;
+
+  background-color: #1b2735;
+  /* 
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
 }

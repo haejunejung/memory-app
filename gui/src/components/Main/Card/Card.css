@@ -3,9 +3,8 @@
 
   width: 100vw;
   height: 100vh;
-
-  border: 1px solid black;
 }
+
 .card {
   overflow: visible;
   width: var(--card-length);
@@ -17,6 +16,95 @@
   transform: translate(-50%, -50%);
 }
 
+.card1 {
+  border-radius: 50px;
+  background: #ff5a5a;
+  box-shadow: 5px 5px 15px #ff5a5a, -5px -5px 15px #ff5a5a;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+.card2 {
+  border-radius: 50px;
+  background: #ffaa28;
+  box-shadow: 5px 5px 15px #ffaa28, -5px -5px 15px #ffaa28;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+.card3 {
+  border-radius: 50px;
+  background: #ffe650;
+  box-shadow: 5px 5px 15px #ffe650, -5px -5px 15px #ffe650;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+.card4 {
+  border-radius: 50px;
+  background: #96f56e;
+  box-shadow: 5px 5px 15px #96f56e, -5px -5px 15px #96f56e;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+.card5 {
+  border-radius: 50px;
+  background: #00d7ff;
+  box-shadow: 5px 5px 15px #00d7ff, -5px -5px 15px #00d7ff;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+.card6 {
+  border-radius: 50px;
+  background: #3296d7;
+  box-shadow: 5px 5px 15px #3296d7, -5px -5px 15px #3296d7;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+.card7 {
+  border-radius: 50px;
+  background: #be32be;
+  box-shadow: 5px 5px 15px #be32be, -5px -5px 15px #be32be;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+.card8 {
+  border-radius: 50px;
+  background: #000000;
+  box-shadow: 5px 5px 15px #000000, -5px -5px 15px #000000;
+
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+}
+
+/* 
 .content {
   width: 100%;
   height: 100%;
@@ -215,4 +303,4 @@
   100% {
     opacity: 0;
   }
-}
+} */

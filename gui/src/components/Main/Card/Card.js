@@ -1,67 +1,40 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { IsometricContainer, Isometric, IsometricCube } from "isometric-react";
+import Video from "../Video/Video";
 import "./Card.css";
 
 const Card = (props) => {
-  const bcolor = [
-    "#FF5A5A",
-    "#FFAA28",
-    "#FFE650",
-    "#96F56E",
-    "	#00D7FF",
-    "#3296D7",
-    "#be32be",
-    "#000000",
-  ];
+  const [play, setPlay] = useState(false);
 
-  const style = {
-    backgroundColor: bcolor[props.index],
+  const handleVideoPlay = () => {
+    setPlay(!play);
   };
 
   return (
     <>
-      <div class="outer-scratch">
-        <div class="inner-scratch">
-          <div class="background grain"></div>
-        </div>
-      </div>
-      <div class="outer-scratch">
-        <div class="inner-scratch">
-          <div class="background grain"></div>
-        </div>
-      </div>
       <section className="card-wrapper">
-        <div class="card">
-          <div class="content">
-            <div class="back">
-              <div class="back-content" style={style}>
-                <strong className="text-animation">
-                  GIFT {parseInt(props.index) + 1}
-                </strong>
-              </div>
-            </div>
-            <div class="front">
-              <div class="img">
-                <div class="circle"></div>
-                <div class="circle" id="right"></div>
-                <div class="circle" id="bottom"></div>
-              </div>
-
-              <div class="front-content">
-                <small class="badge">
-                  OUR MEMORY {parseInt(props.index) + 1}
-                </small>
-                <div class="description">
-                  <div class="title">
-                    <p class="title">
-                      <strong>Spaguetti Bolognese</strong>
-                    </p>
-                  </div>
-                  <p class="card-footer">30 Mins &nbsp; | &nbsp; 1 Serving</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="card">
+          {play ? (
+            <React.Fragment>
+              <IsometricContainer>
+                <Isometric>
+                  <IsometricCube width={5} height={10} depth={5}>
+                    {[...Array(6)].map((_, sideIndex) => (
+                      <div key={sideIndex}>
+                        {sideIndex === 2 && <Video index={props.index} />}
+                        {sideIndex === 4 && <Video index={props.index} />}
+                      </div>
+                    ))}
+                  </IsometricCube>
+                </Isometric>
+              </IsometricContainer>
+            </React.Fragment>
+          ) : (
+            <button
+              onClick={handleVideoPlay}
+              className={`card${parseInt(props.index) + 1}`}
+            ></button>
+          )}
         </div>
       </section>
     </>
