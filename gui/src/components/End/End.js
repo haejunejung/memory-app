@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./Footer.css";
+import "./End.css";
 
-const Footer = () => {
+const End = () => {
   return <></>;
   // return <section id="footer-background">FOOTER</section>;
 };
 
-export default Footer;
+export default End;

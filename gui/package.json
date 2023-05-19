@@ -10,6 +10,7 @@
     "isometric-react": "^1.1.5",
     "isometrizer": "^0.0.3",
     "react": "^18.2.0",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-player": "^2.12.0",
     "react-scripts": "5.0.1",

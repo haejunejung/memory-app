@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./Header.css";
+import "./Start.css";
 
-const Loading = () => {
+const Start = () => {
   return (
     <section id="header-background">
       <div id="text-wrapper">
@@ -12,4 +12,4 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default Start;
